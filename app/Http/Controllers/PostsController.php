@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Post;
+use Illuminate\Support\Facades\Gate;
 use Illuminate\Http\Request;
 
 class PostsController extends Controller
